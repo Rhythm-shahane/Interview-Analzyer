@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let mediaRecorder;
     let recordedChunks = [];
-    const prepTime = 5;
-    const recTime = 10;
+    const prepTime = 20;
+    const recTime = 30;
     let currentTimer;
 
     async function setupCamera() {
